@@ -59,6 +59,15 @@ export default function Home() {
           </a>
 
           <a
+            href="/cv.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-lg border border-gray-300 px-5 py-3 font-medium transition hover:border-gray-400 hover:bg-gray-50"
+          >
+            View CV
+          </a>
+
+          <a
             href="https://github.com/Abiodun2412"
             target="_blank"
             rel="noreferrer"
@@ -171,6 +180,13 @@ export default function Home() {
           </article>
 
           <article className="rounded-2xl border border-gray-200 p-6 transition hover:-translate-y-1 hover:shadow-lg">
+            <Image
+              src="/projects/matillion-api.png"
+              alt="Matillion technical test API response in Swagger UI"
+              width={1200}
+              height={700}
+              className="mb-6 h-48 w-full rounded-xl border border-gray-200 object-contain bg-gray-50 md:h-56"
+            />
             <h3 className="text-2xl font-semibold">Matillion Technical Test</h3>
 
             <p className="mt-3 leading-7 text-gray-600">

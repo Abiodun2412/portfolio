@@ -15,7 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Abiodun Adeleke | Computer Science Student",
   description:
-    "Portfolio of Abiodun Adeleke, a Computer Science student building software across web development, backend systems, and interactive applications.",
+    "Portfolio of Abiodun Adeleke, a Computer Science student building and testing practical software across web development, backend systems, and data-focused applications.",
+  openGraph: {
+    title: "Abiodun Adeleke | Portfolio",
+    description:
+      "Computer Science student interested in software development, quality assurance, and data-focused technology roles.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
